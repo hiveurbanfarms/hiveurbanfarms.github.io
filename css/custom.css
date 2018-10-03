@@ -1,0 +1,461 @@
+.header{
+    background-image: url('/images/background_2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin: 0px;
+}
+
+.overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+body {
+    font-family: 'lato' ,sans-serif;
+}
+
+@font-face {
+    font-family: "Wicked_Grit";
+    src: url('/fonts/WickedGrit.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "edosz";
+    src: url('/fonts/edosz.ttf') format("truetype");
+}
+
+
+.side-social {
+	height: 100px;
+    width: 50px;
+    background: #000000;
+    border-radius: 10px;
+	position: fixed;
+	right: -15px;
+	top: 40%;
+    z-index: 1000;
+}
+
+.side-social a {
+	color: #fff;
+	font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 7px;
+    line-height: 1;
+
+}
+
+.side-social a:hover {
+    color: #fbba00;
+}
+
+
+nav.scrollnav {
+    display: block;
+    position: fixed;
+    z-index: 1000;}
+
+@media (min-width: 768px){
+    nav.scrollnav{
+    transition: transform 500ms;
+    transform: translateY(-100px);}}
+
+
+@media (max-width: 768px){
+    .frontnav{
+        display: none;
+    }
+}
+
+.bg-black {
+    background-color: #000000 !important;
+  }
+
+#news {
+    background-image: url(/images/what-the-hex.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+.mushroomtext {
+    font-family: 'WickedGrit',sans-serif;
+    line-height: 0.8;
+    text-shadow: -4px 1px #000000;
+    letter-spacing: -5px;
+    font-size: 11vmin;
+
+}
+
+.frontnav-item {
+    flex: 1;
+    min-width: 150px;
+    text-align: center;
+}
+
+.arrowdown {
+    text-align: center;
+}
+
+.mushroomcard {
+    box-shadow: -4px 2px #000000;
+    border: none;
+    border-radius: 10px;
+}
+
+.mushroomcardright {
+    box-shadow: 4px 2px #000000;
+    border: none;
+    border-radius: 10px;
+}
+
+.mushroomimgleft {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.mushroomimgright {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.sectionhead {
+    font-family: 'WickedGrit', sans-serif;
+}
+
+/* instafetch
+
+.instafetch__feed {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 2em
+}
+
+#instafeed a {
+    position: relative;
+    display: block;
+    border: 1px solid transparent;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    background-color: #fff;
+    background-clip: padding-box;
+    cursor: pointer;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease
+}
+
+#instafeed a:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-clip: padding-box;
+    -webkit-box-shadow: 0 2px 50px rgba(0, 0, 0, .25);
+    box-shadow: 0 2px 50px rgba(0, 0, 0, .25);
+    opacity: 0;
+    -webkit-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out
+}
+
+#instafeed a:hover {
+    border: 1px solid rgba(0, 0, 0, .1);
+    -webkit-box-shadow: 0 0 47px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 47px rgba(0, 0, 0, .1);
+    -webkit-transform: translate3d(0, -.5em, 0);
+    transform: translate3d(0, -.5em, 0);
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease
+}
+
+#instafeed a:hover:after {
+    opacity: 1
+}
+
+#instafeed figure {
+    padding: .5em
+}
+
+@media (min-width:30em) {
+    #instafeed figure {
+        padding: 1em
+    }
+}
+
+#instafeed div {
+    padding: .5em 0 1em;
+    color: #000;
+    background: #fff
+}
+
+@media (min-width:30em) {
+    #instafeed div {
+        padding: 1em 0 2em
+    }
+}
+
+#instafeed p {
+    padding: 0;
+    text-align: center
+}
+*/
+
+#twitter-posts ul {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#twitter-posts ul li {
+    list-style:none;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.abouttext {
+    line-height: 200%;
+}
+
+.maxwidth15 {
+    width: 15%;
+}
+
+
+.container-background {
+    background-image: url("/images/green_container.jpg");
+    border-radius: 5px;
+    position: absolute;
+    top: -115px;
+    overflow: visible;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.grey-background {
+    background-color: #f0f0f0;
+    position: relative;
+    margin-top: 200px;
+}
+
+footer {
+    background-color: #000000;
+}
+
+.referal-section {
+    margin-top: 100px;
+}
+
+.form-field {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.z-img {
+    z-index: -2000;
+    position: relative;
+}
+
+.gareth {
+    background-image: url(/images/Gareth.jpg);
+    background-size: cover;
+    height: 300px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075)
+}
+
+.dien {
+    background-image: url(/images/Dien.jpg);
+    background-size: cover;
+    height: 300px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075)
+}
+
+.annie {
+    background-image: url(/images/Annie.jpg);
+    background-size: cover;
+    height: 300px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075)
+}
+
+.profile-name {
+    font-family: 'WickedGrit';
+    color: #fff;
+    line-height: 90%;
+}
+
+.card-img-top {
+    width: 100%;
+    object-fit: cover;
+    padding: 0rem;
+}
+
+.Avatar {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.TweetAuthor{
+    position: relative;
+    left: 77px;
+    overflow-wrap: normal;
+
+}
+
+/*.tweet {
+    position: relative;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+} */
+
+.padding73 {
+    padding-left: 77px;
+}
+
+#columns {
+	column-width: 400px;
+	column-gap: 15px;
+    width: 90%;
+	max-width: 100%;
+	margin: 50px auto;
+}
+
+div#columns .tweet {
+	background: #fefefe;
+	border: 2px solid #fcfcfc;
+	box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+	margin: 0 2px 15px;
+	padding: 15px;
+	padding-bottom: 10px;
+	transition: opacity .4s ease-in-out;
+    display: inline-block;
+    break-inside: avoid;
+    min-width: 100%;
+}
+
+@media screen and (max-width: 750px) { 
+    #columns { column-gap: 0px; }
+    #columns figure { width: 100%; }
+  } 
+
+
+#news {
+    padding-top: 50px;
+}
+
+#aboutus {
+    padding-top: 50px;
+}
+
+#aboutmushrooms {
+    padding-top: 25px;
+}
+
+.too-long {
+    margin: 0 -100%
+}
+
+.card-shadow {
+    box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+}
+
+.tweet-time {
+    margin-top: 30px;
+}
+
+.name-width {
+    max-width: 50%;
+}
+
+.form-email-field {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    box-shadow: 0 1px 2px rgba(34, 25, 25, 0.4);
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 2px solid #fcfcfc;
+    border-radius: 0.25rem;
+    margin-top: 30px;
+}
+
+.card-text {
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical; 
+}
+
+.logos-intro {
+    box-align: center;
+}
+
+.btn-email {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.email-title {
+    color: #f0f0f0;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.btn-email {
+    margin: 15px
+  }
+  
+  .btn-email:hover {
+    color: #000;
+    background-color: #eda900;
+    border-color: #eda900;
+  }
+
+  .explainer {
+      color: #fff;
+      margin: 0;
+  }
+
+  .h5 {
+      margin-bottom: 0;
+      padding: 0;
+  }
+
+  .paddingfooter {
+      padding: 30px;
+  }
+
+
+
+
+
